@@ -1,11 +1,12 @@
-
+import Badge from "../components/badges/Badge"
 
 function App() {
 
   return (
-    <div>
-
-    </div>
+    <Badge
+      color={"green"}
+      variant={"pill"}
+    />
   )
 }
 
