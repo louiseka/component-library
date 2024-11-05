@@ -13,6 +13,7 @@ p {
     display: flex;
     flex-direction: row;
     gap: 20px;
+
 }
 
 /* Badges */
@@ -23,6 +24,7 @@ p {
     text-align: center;
     line-height: 25px;
     padding: 10px 20px;
+    margin: 20px 0;
 
 }
 
@@ -33,6 +35,7 @@ p {
     text-align: center;
     line-height: 25px;
     padding: 10px 20px;
+    margin: 20px 0;
 }
 
 /* Banners*/
