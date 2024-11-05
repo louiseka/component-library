@@ -8,32 +8,10 @@ function App() {
   const colors = ["grey", "red", "yellow", "green", "blue", "indigo", "purple", "pink"]
 
 
-
-  const badgeElements = colors.map((color) => {
-    return (
-      <div>
-        <Badge color={color}
-          variant={"pill"}>{color}</Badge>
-
-
-        <Badge color={color}
-          variant={"square"}>
-          {color}
-
-        </Badge>
-
-
-      </div>
-
-    )
-  })
-
   return (
-    <div className="badge-components">
-      {badgeElements}
-    </div>
-
+    <div></div>
   )
+
 
 }
 
@@ -43,7 +21,31 @@ export default App
 
 // //Badge Component
 // //Choose a color and shape. Color goes into color and shape into variant.
+// const badgeElements = colors.map((color) => {
+//   return (
+//     <div>
+//       <Badge color={color}
+//         variant={"pill"}>{color}</Badge>
 
+
+//       <Badge color={color}
+//         variant={"square"}>
+//         {color}
+
+//       </Badge>
+
+
+//     </div>
+
+//   )
+// })
+
+// return (
+//   <div className="badge-components">
+//     {badgeElements}
+//   </div>
+
+// )
 
 
 

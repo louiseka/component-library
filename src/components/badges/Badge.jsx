@@ -1,9 +1,9 @@
-export default function Badge({ color, variant }) {
+export default function Badge({ color, variant, children }) {
 
 
 
     return (
-        <p className={`${variant} ${color}`}>{color}</p>
+        <p className={`${variant} ${color}`}>{children}</p>
     )
 
 }
