@@ -1,7 +1,8 @@
-import { FaExclamationTriangle, FaInfoCircle, FaTimesCircle, FaCheckCircle } from 'react-icons/fa';
+import { FaExclamationTriangle, FaInfoCircle, FaTimesCircle, FaCheckCircle, FaCloudUploadAlt } from 'react-icons/fa';
 
 import Badge from "./components/badges/Badge"
 import Banner from "./components/banners/Banner"
+import Card from "./components/cards/Card"
 
 function App() {
 
@@ -9,10 +10,15 @@ function App() {
 
 
   return (
-    <div></div>
+    <div>
+      <Card Icon={FaCloudUploadAlt} iconBackground={"yellow"}>
+        <h3> Easy Deployment </h3>
+        <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+      </Card>
+
+    </div>
+
   )
-
-
 }
 
 export default App
