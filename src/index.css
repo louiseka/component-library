@@ -135,6 +135,93 @@ p {
     background-color: #3730A3;
 }
 
+.card-purple {
+    color: #EDE9FE;
+    background-color: #5B21B6;
+}
+
+.card-pink {
+    color: #FCE7F3;
+    background-color: #9D174D;
+}
+
+/* Testimonials */
+
+.testimonial-container {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 800px;
+    background-color: #2545B8;
+    border-radius: 8px;
+}
+
+
+
+.img-container {
+    display: flex;
+}
+
+.img-container img {
+    width: 300px;
+    margin: -20px;
+}
+
+.text-container {
+    color: #fff;
+    line-height: 1.25;
+    font-size: 1.1rem;
+    margin: 0 25px;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    padding: 20px 0;
+}
+
+.small-bold {
+    font-weight: 700;
+}
+
+.testimonial-icon {
+    color: #FFFFFF;
+    opacity: 25%;
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.testimonial-grey {
+    color: #F3F4F6;
+    background-color: #1F2937;
+}
+
+.testimonial-red {
+    color: #FEE2E2;
+    background-color: #991B1B;
+}
+
+.testimonial-yellow {
+    color: #FEF3C7;
+    background-color: #92400E;
+}
+
+.green {
+    background-color: #065F46;
+    color: #D1FAE5;
+}
+
+.blue {
+    color: #DBEAFE;
+    background-color: #1E40AF;
+}
+
+.indigo {
+    color: #E0E7FF;
+    background-color: #3730A3;
+}
+
 .purple {
     color: #EDE9FE;
     background-color: #5B21B6;
@@ -144,6 +231,10 @@ p {
     color: #FCE7F3;
     background-color: #9D174D;
 }
+
+
+
+
 
 /* Colors */
 .grey {
@@ -184,4 +275,18 @@ p {
 .pink {
     background-color: #FCE7F3;
     color: #9D174D;
+}
+
+/* Testimonials Media Queries */
+
+@media(min-width: 768px) {
+    .testimonial-container {
+        flex-direction: row;
+        height: 250px;
+    }
+
+    .testimonial-img {
+        margin: 0;
+    }
+
 }
