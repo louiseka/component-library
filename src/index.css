@@ -85,9 +85,9 @@ p {
     color: #6B7280;
 }
 
+
 .icon-container {
     border-radius: 8px;
-    background-color: #3F75FE;
     width: 70px;
     height: 70px;
     display: flex;
@@ -97,11 +97,52 @@ p {
     position: absolute;
     right: calc(50% - 35px);
     top: -35px;
+    background-color: #3F75FE;
 }
 
 .card-icon {
     font-size: 2.5rem;
     color: #fff;
+}
+
+.card-grey {
+    color: #F3F4F6;
+    background-color: #1F2937;
+}
+
+.card-red {
+    color: #FEE2E2;
+    background-color: #991B1B;
+}
+
+.card-yellow {
+    color: #FEF3C7;
+    background-color: #92400E;
+}
+
+.card-green {
+    background-color: #065F46;
+    color: #D1FAE5;
+}
+
+.card-blue {
+    color: #DBEAFE;
+    background-color: #1E40AF;
+}
+
+.card-indigo {
+    color: #E0E7FF;
+    background-color: #3730A3;
+}
+
+.purple {
+    color: #EDE9FE;
+    background-color: #5B21B6;
+}
+
+.pink {
+    color: #FCE7F3;
+    background-color: #9D174D;
 }
 
 /* Colors */

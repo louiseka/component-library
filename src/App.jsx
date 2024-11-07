@@ -11,11 +11,7 @@ function App() {
 
   return (
     <div>
-      <Card>
-        <div className='icon-container'>
-          <FaCloudUploadAlt className='card-icon' />
-        </div>
-
+      <Card Icon={FaCloudUploadAlt} iconBackground={"yellow"}>
         <h3> Easy Deployment </h3>
         <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
       </Card>
