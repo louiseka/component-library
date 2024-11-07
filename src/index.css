@@ -60,8 +60,49 @@ p {
     margin: 0 8px 0 0;
 }
 
+/* Cards */
 
+.card-component {
+    max-width: 400px;
+    height: 200px;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0 0 30px 0;
+    position: relative;
+}
 
+.card-component h3 {
+    padding: 60px 0 25px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111827;
+}
+
+.card-component p {
+    padding: 0 25px;
+    color: #6B7280;
+}
+
+.icon-container {
+    border-radius: 8px;
+    background-color: #3F75FE;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: calc(50% - 35px);
+    top: -35px;
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: #fff;
+}
 
 /* Colors */
 .grey {
