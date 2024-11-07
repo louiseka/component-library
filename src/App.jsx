@@ -1,8 +1,10 @@
-import { FaExclamationTriangle, FaInfoCircle, FaTimesCircle, FaCheckCircle, FaCloudUploadAlt } from 'react-icons/fa';
+import { FaExclamationTriangle, FaInfoCircle, FaTimesCircle, FaCheckCircle, FaCloudUploadAlt, FaQuoteLeft  } from 'react-icons/fa';
+
 
 import Badge from "./components/badges/Badge"
 import Banner from "./components/banners/Banner"
 import Card from "./components/cards/Card"
+import Testimonial from './components/testimonials/Testimonial';
 
 function App() {
 
@@ -11,7 +13,16 @@ function App() {
 
   return (
     <div>
-
+    <Testimonial 
+      testimonialBackground={"yellow"}
+      imageUrl={"./profile-img.png"}
+      altText={"Profile image of a woman smiling"}
+      Icon={FaQuoteLeft}
+      quote={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis."}
+      author={"May Andersons"}   
+      workplace={"Workcation, CTO"}           
+      /> 
+    
 
     </div>
 
